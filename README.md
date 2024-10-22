@@ -37,8 +37,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/GlobalEmail-Python3
-$ cd GlobalEmail-Python3
+git clone https://github.com/MelissaData/GlobalEmail-Python3
+cd GlobalEmail-Python3
 ```
 
 ## Windows
@@ -78,15 +78,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ .\GlobalEmailPython3.ps1
+	.\GlobalEmailPython3.ps1
 	```
 
 - Command Line 
 
 	You can pass a email and a license string into `-email` and `-license` parameters respectively to test the Cloud API. For example:
 	```
-    $ .\GlobalEmailPython3.ps1 -email "Info@melissa.com"
-    $ .\GlobalEmailPython3.ps1 -email "Info@melissa.com" -license "<your_license_string>"
+    .\GlobalEmailPython3.ps1 -email "Info@melissa.com"
+    .\GlobalEmailPython3.ps1 -email "Info@melissa.com" -license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive line mode:
@@ -137,15 +137,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ ./GlobalEmailPython3.sh
+	./GlobalEmailPython3.sh
 	```
 
 - Command Line 
 
 	You can pass an email and license string into `--email` and `--license` parameters respectively to test the Cloud API. For example:
 	```
-    $ ./GlobalEmailPython3.sh --email "Info@melissa.com"
-    $ ./GlobalEmailPython3.sh --email "Info@melissa.com" --license "<your_license_string>"
+    ./GlobalEmailPython3.sh --email "Info@melissa.com"
+    ./GlobalEmailPython3.sh --email "Info@melissa.com" --license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive line mode:
